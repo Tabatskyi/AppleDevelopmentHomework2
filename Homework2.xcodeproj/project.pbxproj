@@ -10,6 +10,7 @@
 		CEE00DCA2CBCEAA3007DFC95 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DC92CBCEAA3007DFC95 /* main.swift */; };
 		CEE00DD22CBCEDD3007DFC95 /* task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DD12CBCEDD3007DFC95 /* task1.swift */; };
 		CEE00DD52CBCEDEB007DFC95 /* task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DD42CBCEDEB007DFC95 /* task2.swift */; };
+		CEE00DDC2CBD5108007DFC95 /* task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DDB2CBD5108007DFC95 /* task3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		CEE00DC92CBCEAA3007DFC95 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CEE00DD12CBCEDD3007DFC95 /* task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task1.swift; sourceTree = "<group>"; };
 		CEE00DD42CBCEDEB007DFC95 /* task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task2.swift; sourceTree = "<group>"; };
+		CEE00DDB2CBD5108007DFC95 /* task3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				CEE00DC92CBCEAA3007DFC95 /* main.swift */,
 				CEE00DD12CBCEDD3007DFC95 /* task1.swift */,
 				CEE00DD42CBCEDEB007DFC95 /* task2.swift */,
+				CEE00DDB2CBD5108007DFC95 /* task3.swift */,
 			);
 			path = Homework2;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE00DDC2CBD5108007DFC95 /* task3.swift in Sources */,
 				CEE00DD52CBCEDEB007DFC95 /* task2.swift in Sources */,
 				CEE00DD22CBCEDD3007DFC95 /* task1.swift in Sources */,
 				CEE00DCA2CBCEAA3007DFC95 /* main.swift in Sources */,

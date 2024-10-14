@@ -50,28 +50,3 @@ class TreeNode
         }
     }
 }
-
-
-func createTree(childrenRangeStart x: Int, childrenRangeEnd y: Int, depth: Int) -> TreeNode?
-{
-    if ((x < 0 || y <= 0) || (x >= y))
-    {
-        return nil;
-    }
-    else if (depth == 0)
-    {
-        return TreeNode(value: 0);
-    }
-    
-    let childrenCount = Int.random(in: x...y);
-    let node = TreeNode(value: abs(depth - childrenCount));
-    for _ in 0..<childrenCount
-    {
-        if let child = createTree(childrenRangeStart: x, childrenRangeEnd: y, depth: depth - 1)
-        {
-            node.addChild(child);
-        }
-        else { return nil; }
-    }
-    return node;
-}
