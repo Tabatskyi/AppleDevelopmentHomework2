@@ -1,8 +1,8 @@
 import Foundation
-/*
+
 class Apartment {
     let number: Int
-    weak var tenant: Person?
+    weak var tenant: Person? // when here unowned code appers to work just the same as with the weak ref
     
     init(number: Int) {
         self.number = number
@@ -19,7 +19,7 @@ class Apartment {
 
 class Person {
     let name: String
-    var apartment: Apartment?
+    var apartment: Apartment? // when both references are weak Apartment appears empty. When here unowned, code throws Fatal error: Attempt to read already deallocated reference
     
     init(name: String) {
         self.name = name
@@ -37,14 +37,3 @@ class Person {
         print("Person deinitialized")
     }
 }
-
-var person: Person? = Person(name: "/*WRITE YOUR NAME HERE*/")
-
-person?.setupApartment(Apartment(number: 42))
-
-person?.apartment?.tenant = person
-person?.getInfo()
-person?.apartment?.getInfo()
-
-person = nil
-*/

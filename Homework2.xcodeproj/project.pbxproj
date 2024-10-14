@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CEE00DCA2CBCEAA3007DFC95 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DC92CBCEAA3007DFC95 /* main.swift */; };
-		CEE00DD22CBCEDD3007DFC95 /* task1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DD12CBCEDD3007DFC95 /* task1_1.swift */; };
-		CEE00DD52CBCEDEB007DFC95 /* task1_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DD42CBCEDEB007DFC95 /* task1_2.swift */; };
+		CEE00DD22CBCEDD3007DFC95 /* task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DD12CBCEDD3007DFC95 /* task1.swift */; };
+		CEE00DD52CBCEDEB007DFC95 /* task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE00DD42CBCEDEB007DFC95 /* task2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,8 @@
 /* Begin PBXFileReference section */
 		CEE00DC62CBCEAA3007DFC95 /* Homework2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Homework2; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE00DC92CBCEAA3007DFC95 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		CEE00DD12CBCEDD3007DFC95 /* task1_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task1_1.swift; sourceTree = "<group>"; };
-		CEE00DD42CBCEDEB007DFC95 /* task1_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task1_2.swift; sourceTree = "<group>"; };
+		CEE00DD12CBCEDD3007DFC95 /* task1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task1.swift; sourceTree = "<group>"; };
+		CEE00DD42CBCEDEB007DFC95 /* task2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				CEE00DC92CBCEAA3007DFC95 /* main.swift */,
-				CEE00DD12CBCEDD3007DFC95 /* task1_1.swift */,
-				CEE00DD42CBCEDEB007DFC95 /* task1_2.swift */,
+				CEE00DD12CBCEDD3007DFC95 /* task1.swift */,
+				CEE00DD42CBCEDEB007DFC95 /* task2.swift */,
 			);
 			path = Homework2;
 			sourceTree = "<group>";
@@ -125,8 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE00DD52CBCEDEB007DFC95 /* task1_2.swift in Sources */,
-				CEE00DD22CBCEDD3007DFC95 /* task1_1.swift in Sources */,
+				CEE00DD52CBCEDEB007DFC95 /* task2.swift in Sources */,
+				CEE00DD22CBCEDD3007DFC95 /* task1.swift in Sources */,
 				CEE00DCA2CBCEAA3007DFC95 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
