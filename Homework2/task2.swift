@@ -4,7 +4,7 @@ class TreeNode
 {
     var value: Int;
     var children: [TreeNode];
-    var neighbors: [TreeNode];
+    var neighbors: [WeakNode];
     
     init(value: Int)
     {
@@ -20,7 +20,7 @@ class TreeNode
     
     func addNeighbor(_ node: TreeNode)
     {
-        self.neighbors.append(node)
+        self.neighbors.append(WeakNode(node));
     }
     
     func DFSSearch(value: Int, depth: Int = 0) -> Bool
@@ -40,7 +40,17 @@ class TreeNode
         }
         return false;
     }
+    
+    struct WeakNode  // https://stackoverflow.com/questions/24127587/how-do-i-declare-an-array-of-weak-references-in-swift
+    {
+        weak var value : TreeNode?;
+        init (_ value: TreeNode)
+        {
+            self.value = value;
+        }
+    }
 }
+
 
 func createTree(childrenRangeStart x: Int, childrenRangeEnd y: Int, depth: Int) -> TreeNode?
 {
